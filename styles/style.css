@@ -11,10 +11,10 @@
 
 .header__links-list {
     display: flex;
-    flex-direction: line;
+    flex-direction: row;
     list-style: circle;
     gap: 31px;
-    margin-left: 30px;
+    margin-left: 27px;
 }
 
 .header__links-list-item_no-bullit {
@@ -22,7 +22,7 @@
 }
 
 .header__logo {
-    margin-right: 150px;
+    margin-right: 144px;
     width: 140px;
     height: 105px;
 }
@@ -137,9 +137,6 @@
     border: 1px solid white;
     padding: 11px 32px;
     margin-top: -10px;
-}
-
-.bet-button_no-line {
     text-decoration: none;
 }
 
@@ -218,7 +215,7 @@
 
 .lots__look-more-link {
     display: flex;
-    flex-direction: line;
+    flex-direction: row;
     list-style: none;
     color: #000;
     font-family: "Raleway", sans-serif;
@@ -320,7 +317,7 @@
 
 .footer__social-list {
     display: flex;
-    flex-direction: line;
+    flex-direction: row;
     list-style: none;
     gap: 48px;
     align-items: start;
