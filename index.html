@@ -15,7 +15,7 @@
         <nav class="header__menu">
           <ul class="header__links-list">
             <li class="header__links-list-item header__links-list-item_no-bullit">
-              <a class="header__menu-link header__links-list-item_no-underline" href="#0">главная</a>
+              <a class="header__menu-link menu__link-active" href="#0">главная</a>
             </li>
             <li class="header__links-list-item">
               <a class="header__menu-link" href="#0">посмотреть лоты</a>
@@ -32,7 +32,7 @@
             alt="Черный логотип проекта"
           >
         </a>
-        <address class="address">
+        <address class="address header__address">
           <a class="address__line" href="tel:++99995555555">+9 999 555 5555</a>
           <a class="address__line" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
@@ -60,9 +60,9 @@
           </span>
         </h1>
         <div class="cover__description">
-          <a class="cover__description-text">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </a>
+          </p>
             <button type="button" class="bet-button">Сделать ставку</button>
       </div>
       </section>
@@ -71,78 +71,58 @@
         <h2 class="lots__heading">ЛОТЫ</h2>
         <ul class="lots__card-list">
           <li>
-            <a href="#0">
+            <a class="card__link" href="#0">
              <article class="card card_type_film">
                <div class="overlay"></div>
-               <div class="card__content">
-                 <h3 class="card__title">
-                   <span>Фильм режиссёра, который бросил киношколу</span>
-                 </h3>
-               </div>
-               <div class="card__text">
-                 <span>
-                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                   ставка, если бы вы не знали, что режиссёр — Пол Томас
-                   Андерсон?
-                 </span>
-               </div>
+               <h3 class="card__title">
+                 Фильм режиссёра, который бросил киношколу
+               </h3>
+               <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+               </p>
              </article>
            </a>
           </li>
           <li>
-            <a href="#0">
+            <a class="card__link" href="#0">
              <article class="card card_type_book">
                <div class="overlay"></div>
-               <div class="card_type_book"></div>
-               <div class="card__content">
-                 <h3 class="card__title">
-                   <span>
-                     Книга, где описан один скучный день из жизни рекламного
-                    агента
-                   </span>
-                 </h3>
-               </div>
-               <div class="card__text">
-                <span>
+               <h3 class="card__title">
+                 Книга, где описан один скучный день из жизни рекламного
+                 агента
+                </h3>
+               <p class="card__text">
                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                    с переходами на древнеанглийский. В ней одновременно
                    рассказывается о 16 июня 1904 года и об истории литературы,
                    начиная с античных времён. И это всё накладывается на
                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
                    Джеймса Джойса?
-                </span>
-               </div>
+               </p>
              </article>
            </a>
           </li>
           <li>
-            <a href="#0">
+            <a class="card__link" href="#0">
              <article class="card card_type_picture">
                <div class="overlay"></div>
-               <div class="card_type_picture"></div>
-               <div class="card__content">
-                 <h3 class="card__title">
-                    <span>
-                     Картина, которую повторит даже 5-летний сын маминой
-                     подруги
-                    </span>
-                 </h3>
-               </div>
-               <div class="card__text">
-                 <span>
+               <h3 class="card__title">
+                 Картина, которую повторит даже 5-летний сын маминой
+                 подруги
+               </h3>
+               <p class="card__text">
                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                    котиков… Сколько бы вы на такое поставили, если бы не знали,
                    что это — одна из революционных работ Кандинского?
-                 </span>
-               </div>
+              </p>
              </article>
             </a>
           </li>
         </ul>
-        <div class="lots__look-more-link">
-            <a href="#0">посмотреть больше</a>
-        </div>
+        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
       <!--Секция с информацией об аукционе-->
       <section class="about">
@@ -178,12 +158,12 @@
     </main>
 
     <footer class="footer">
-        <address class="footer__address">
-          <a class="footer__address-line" href="tel:++99995555555"
+        <address class="footer__address address">
+          <a class="address__line" href="tel:++99995555555"
             >+9 999 555 5555</a
           >
           <br>
-          <a class="footer__address-line" href="mailto:info@sobaka.ge"
+          <a class="address__line" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           >
           <br>
@@ -195,7 +175,7 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active" href="#0"
+            <a class="footer__menu-link menu__link-active" href="#0"
               >главная</a>
           </li>
           <li class="footer__links-list-item">
